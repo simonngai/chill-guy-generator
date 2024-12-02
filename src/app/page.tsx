@@ -110,17 +110,20 @@ export default function Home() {
             onClick={handleRemoveLogo}
             className="p-2 bg-red-500 text-white rounded hover:bg-red-600"
           >
-            Remove Logo
+            Delete logo
           </button>
         )}
         <button
           onClick={handleDownload}
           className="p-2 bg-blue-500 text-white rounded hover:bg-blue-600"
         >
-          Download Meme
+          下載 Meme
         </button>
         <button className="p-2 bg-blue-500 text-white rounded hover:bg-blue-600">
-          <a href="https://github.com" target="_blank">
+          <a
+            href="https://github.com/simonngai/chill-guy-generator"
+            target="_blank"
+          >
             Github Repo
           </a>
         </button>

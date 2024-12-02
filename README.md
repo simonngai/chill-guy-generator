@@ -1,6 +1,6 @@
 This is an app built using Github Copilot with Calude 3.5 Sonnet in less than an hour.
 
-App link:
+App link: https://chill-guy-generator.vercel.app/
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
