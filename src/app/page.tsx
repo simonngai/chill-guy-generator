@@ -78,7 +78,7 @@ export default function Home() {
       <h1 className="text-2xl font-bold mb-4 text-black">Chill Guy 生成器</h1>
       <b />
 
-      <canvas ref={canvasRef} className="max-w-lg" />
+      <canvas ref={canvasRef} className="w-full max-w-lg" /> {/* Changed className to make canvas responsive */}
 
       <div className="flex flex-col gap-4 w-full max-w-lg">
         <input
