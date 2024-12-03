@@ -77,9 +77,8 @@ export default function Home() {
     <main className="min-h-screen p-8 flex flex-col items-center gap-4">
       <h1 className="text-2xl font-bold mb-4 text-black">Chill Guy 生成器</h1>
       <b />
-
-      <canvas ref={canvasRef} className="w-full max-w-lg" /> {/* Changed className to make canvas responsive */}
-
+      <canvas ref={canvasRef} className="w-full max-w-lg" />{" "}
+      {/* Changed className to make canvas responsive */}
       <div className="flex flex-col gap-4 w-full max-w-lg">
         <input
           type="text"
@@ -102,7 +101,7 @@ export default function Home() {
             type="file"
             accept="image/*"
             onChange={(e) => setLogo(e.target.files ? e.target.files[0] : null)}
-            className="p-2 border rounded text-black mt-2"
+            className="p-2 border rounded text-black mt-2 w-full" // added w-full class
           />
         </label>
         {logo && (
